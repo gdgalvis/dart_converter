@@ -7,8 +7,8 @@ class MyConverter {
 
   MyConverter() {
     // todo: Inicializa [_binary] y [_decimal] en ['0']
-    this._binary = "0";
-    this._decimal = "0";
+    _binary = "0";
+    _decimal = "0";
   }
 
   // TODO: Crea un [setter] y [getter] para [binary] .
@@ -21,7 +21,7 @@ class MyConverter {
   }
 
   // TODO: Crea un [setter] y [getter] para [decimal].
-  void set decima(String decs) {
+  void set decimal(String decs) {
     _decimal = decs;
   }
 
@@ -41,4 +41,3 @@ class MyConverter {
     return result;
   }
 }
-
